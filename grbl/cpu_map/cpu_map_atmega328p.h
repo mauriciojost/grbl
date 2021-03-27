@@ -101,7 +101,7 @@
 #ifdef ENABLE_M7 // Mist coolant disabled by default. See config.h to enable/disable.
   #define COOLANT_MIST_DDR   DDRC
   #define COOLANT_MIST_PORT  PORTC
-  #define COOLANT_MIST_BIT   4 // Uno Analog Pin 4
+  #define COOLANT_MIST_BIT   5 // Uno Analog Pin 4
 #endif  
 
 // Define user-control controls (cycle start, reset, feed hold) input pins.
@@ -123,7 +123,7 @@
 #define PROBE_DDR       DDRC
 #define PROBE_PIN       PINC
 #define PROBE_PORT      PORTC
-#define PROBE_BIT       5  // Uno Analog Pin 5
+#define PROBE_BIT       4  // Uno Analog Pin 5
 #define PROBE_MASK      (1<<PROBE_BIT)
 
 // Start of PWM & Stepper Enabled Spindle
